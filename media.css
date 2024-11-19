@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+    .header {
+        padding: 20px 5px 15px;
+        box-shadow: 0 0px 10px 0px var(--color-gray);
+    }
+    .wrapper {
+        width: calc(100% - 50px);
+    }
+    .header__title {
+        font-size: 2rem;
+    }
+    .photos__wrapper {
+        margin-top: 15px;
+        gap: 10px;
+    }
+    .img-container {
+        margin-bottom: 10px;
+    }
+    .main {
+        padding-top: 10px;
+    }
+    .main__form {
+        border-radius: 10px;
+
+        & input {
+            flex: 1;
+            border: none;
+            outline: none;
+            background-color: var(--color-bg);
+            color: var(--color-dark);
+            font-size: 1.2rem;
+            padding: 15px 25px;
+        }
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 15px 40px;
+        font-weight: 700;
+    }
+}
